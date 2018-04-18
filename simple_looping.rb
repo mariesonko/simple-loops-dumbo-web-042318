@@ -28,11 +28,11 @@ end
 while_iterator
 
 def until_iterator(number_of_times)
-  i =0 
+  i =0
   until i == number_of_times
   puts phrase = "Welcome to Flatiron School's Web Development Course!"
   i += 1
-end 
+end
 end
 number_of_times
 
