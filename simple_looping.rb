@@ -1,22 +1,31 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
-
-  phrase = "Welcome to Flatiron School's Web Development Course!"
+ i = 0 
+loop do 
+  i +=1
+  puts phrase = "Welcome to Flatiron School's Web Development Course!"
+  if i >= number_of_times
+    break 
 end
+end 
+loop_iterator
 
 def times_iterator(number_of_times)
-  # code your solution here using the "times" keyword
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-
+  number_of_times.times 
+puts  phrase = "Welcome to Flatiron School's Web Development Course!"
+end 
 end
+times_iterator
 
 def while_iterator(number_of_times)
-  # code your solution here using the "while" keyword
-  # hint: user a counter to tell the while loop when to stop!
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-
+   i =0 
+while i > number_of_times
+puts  phrase = "Welcome to Flatiron School's Web Development Course!"
+i += 1
 end
+end 
+while_iterator
 
 def until_iterator(number_of_times)
   # code your solution here using the "until" keyword
